@@ -19,7 +19,7 @@ public class Tutorialmod {
     private static final Logger LOGGER = LogUtils.getLogger();
 
 
-    // Very Importatn Comment
+    // Very Important Comment
     public Tutorialmod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
