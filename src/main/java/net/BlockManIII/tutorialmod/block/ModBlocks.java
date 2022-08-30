@@ -2,6 +2,7 @@ package net.BlockManIII.tutorialmod.block;
 
 import net.BlockManIII.tutorialmod.Tutorialmod;
 import net.BlockManIII.tutorialmod.block.custom.JumpyBlock;
+import net.BlockManIII.tutorialmod.block.custom.ZirconLampBlock;
 import net.BlockManIII.tutorialmod.item.ModCreativeModeTab;
 import net.BlockManIII.tutorialmod.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -41,6 +42,9 @@ public class ModBlocks {
 
     public  static final RegistryObject<Block> JUMPY_BLOCK = registerBlcok("jumpy_block",
             () -> new JumpyBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.TUTORIAL_TAB);
+    public  static final RegistryObject<Block> ZIRCON_LAMP = registerBlcok("zircon_lamp",
+            () -> new ZirconLampBlock(BlockBehaviour.Properties.of(Material.STONE).strength(4f).requiresCorrectToolForDrops()
+                    .lightLevel(state -> state.getValue(ZirconLampBlock.LIT) ? 15 : 0)), ModCreativeModeTab.TUTORIAL_TAB);
 
     private static <T extends Block> RegistryObject<T> registerBlcok(String name, Supplier<T> block, CreativeModeTab tab){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
