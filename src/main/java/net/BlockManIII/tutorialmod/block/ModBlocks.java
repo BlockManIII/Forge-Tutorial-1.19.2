@@ -1,6 +1,7 @@
 package net.BlockManIII.tutorialmod.block;
 
 import net.BlockManIII.tutorialmod.Tutorialmod;
+import net.BlockManIII.tutorialmod.block.custom.JumpyBlock;
 import net.BlockManIII.tutorialmod.item.ModCreativeModeTab;
 import net.BlockManIII.tutorialmod.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -24,6 +25,7 @@ public class ModBlocks {
 
     public  static final RegistryObject<Block> ZIRCON_BLOCK = registerBlcok("zircon_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.TUTORIAL_TAB);
+
     public  static final RegistryObject<Block> ZIRCON_ORE = registerBlcok("zircon_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops(),
             UniformInt.of(3, 7)), ModCreativeModeTab.TUTORIAL_TAB);
@@ -36,6 +38,9 @@ public class ModBlocks {
     public  static final RegistryObject<Block> NETHERRACK_ZIRCON_ORE = registerBlcok("netherrack_zircon_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops(),
                     UniformInt.of(3, 7)), ModCreativeModeTab.TUTORIAL_TAB);
+
+    public  static final RegistryObject<Block> JUMPY_BLOCK = registerBlcok("jumpy_block",
+            () -> new JumpyBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.TUTORIAL_TAB);
 
     private static <T extends Block> RegistryObject<T> registerBlcok(String name, Supplier<T> block, CreativeModeTab tab){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
