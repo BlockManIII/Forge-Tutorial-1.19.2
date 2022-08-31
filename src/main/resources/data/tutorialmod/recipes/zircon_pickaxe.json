@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern" : [
+    "###",
+    " * ",
+    " * "
+  ],
+  "key": {
+    "#": {
+      "item": "tutorialmod:zircon"
+    },
+    "#": {
+      "item": "minecart:stick"
+    }
+  },
+  "result": {
+    "item": "tutorialmod:zircon_sword"
+  }
+}
