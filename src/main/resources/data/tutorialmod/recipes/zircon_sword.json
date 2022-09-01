@@ -10,8 +10,8 @@
     "#": {
       "item": "tutorialmod:zircon"
     },
-    "#": {
-      "item": "minecart:stick"
+    "*": {
+      "item": "minecraft:stick"
     }
   },
   "result": {

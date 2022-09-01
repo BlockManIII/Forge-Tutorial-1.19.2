@@ -9,11 +9,11 @@
     "#": {
       "item": "tutorialmod:zircon"
     },
-    "#": {
-      "item": "minecart:stick"
+    "*": {
+      "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "tutorialmod:zircon_sword"
+    "item": "tutorialmod:zircon_hoe"
   }
 }

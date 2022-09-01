@@ -3,6 +3,8 @@ package net.BlockManIII.tutorialmod;
 import com.mojang.logging.LogUtils;
 import net.BlockManIII.tutorialmod.block.ModBlocks;
 import net.BlockManIII.tutorialmod.item.ModItems;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;

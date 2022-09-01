@@ -2,12 +2,14 @@
   "item.tutorialmod.zircon": "Zircon",
   "item.tutorialmod.raw_zircon": "Raw Zircon",
   "item.tutorialmod.eight_ball": "Eight Ball",
+  "item.tutorialmod.blueberry": "Blueberry",
+  "item.tutorialmod.blueberry_seeds": "Blueberry Seeds",
 
-  "block.tutorialmod.zircon_sword": "Zircon Sword",
-  "block.tutorialmod.zircon_Axe": "Zircon Axe",
-  "block.tutorialmod.zircon_pickaxe": "Zircon Pickaxe",
-  "block.tutorialmod.zircon_hoe": "Zircon Hoe",
-  "block.tutorialmod.zircon_shovel": "Zircon Shovel",
+  "item.tutorialmod.zircon_sword": "Zircon Sword",
+  "item.tutorialmod.zircon_axe": "Zircon Axe",
+  "item.tutorialmod.zircon_pickaxe": "Zircon Pickaxe",
+  "item.tutorialmod.zircon_hoe": "Zircon Hoe",
+  "item.tutorialmod.zircon_shovel": "Zircon Shovel",
 
   "block.tutorialmod.zircon_block": "Block of Zircon",
   "block.tutorialmod.zircon_ore": "Zircon Ore",
@@ -15,7 +17,9 @@
   "block.tutorialmod.endstone_zircon_ore": "Endstone  Zircon Ore",
   "block.tutorialmod.netherrack_zircon_ore": "Netherrack  Zircon Ore",
   "block.tutorialmod.jumpy_block": "Jumpy Block",
+
   "block.tutorialmod.zircon_lamp": "Zircon Lamp",
+  "block.tutorialmod.blueberry_crop": "Blueberry Crop",
 
   "itemGroup.tutorialtab": "My First Mod Tab"
 }
