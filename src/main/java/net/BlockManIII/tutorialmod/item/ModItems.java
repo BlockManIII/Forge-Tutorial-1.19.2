@@ -33,7 +33,7 @@ public class ModItems {
                     .food(new FoodProperties.Builder().nutrition(2).saturationMod(2f).build())));
 
     // Tools and weapons - First number is attack damage modifier, and second is attack speed modifier
-    public static final RegistryObject<Item> ZIRCON_SWORD = ITEMS.register("zircon_sword",
+    public static final RegistryObject<Item> ZIRCON_SWORD = ITEMS.register("zircon_trisword",
             () -> new SwordItem(ModTeirs.ZIRCON,-5,-2.4f,
                     new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB)));
     public static final RegistryObject<Item> ZIRCON_PICKAXE = ITEMS.register("zircon_pickaxe",
@@ -48,6 +48,8 @@ public class ModItems {
     public static final RegistryObject<Item> ZIRCON_HOE = ITEMS.register("zircon_hoe",
             () -> new HoeItem(ModTeirs.ZIRCON,0,-2.4f,
                     new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB)));
+    public static final RegistryObject<Item> JAVLEN = ITEMS.register("javlen",
+            () -> new TridentItem(new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB)));
 
 
     public static void register(IEventBus eventBust){
